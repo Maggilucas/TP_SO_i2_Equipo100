@@ -9,3 +9,7 @@ git pull upstream main para traer los cambios
 Y por ultimo un push para guardar los cambios en el repositorio propio
 
 B) Si
+
+C) Si
+
+D) No
