@@ -13,3 +13,39 @@ B) Si
 C) Si
 
 D) No
+
+E) 
+beta:
+git init
+echo "">> -a fork.txt
+git add .
+git commit -m "creando fork"
+git push origin master
+
+gamma:
+git clone "dirececion repositorio original"
+echo "alarcon emmanuel ">> -a fork.txt
+echo date +%T >> -a fork.txt
+echo hostname -I >> -a fork.txt
+git add .
+git commit -m "agregado de nombre ip hora"
+git push origin master
+
+alfa:
+git clone "dirececion repositorio original"
+echo "lucas maggi ">> -a fork.txt
+echo date >> -a fork.txt
+echo hostname -I >> -a fork.txt
+git add .
+git commit -m "completando fork"
+git push origin master
+
+gamma y alfa:
+git remote
+git remote -v
+git remote add upstream "direccion del repositorio original"
+git remote -v
+git fetch origin
+git fetch upstream 
+git pull upstream  main
+
