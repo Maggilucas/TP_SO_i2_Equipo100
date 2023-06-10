@@ -1,3 +1,11 @@
 maggi lucas ezequiel - alfa
 romina noemi calani cruz - beta
 emmanuel alarcon - gamma
+
+
+A) En el repositorio local hice git remote add upstream +direccion del repositorio original.
+git fecth upstream para ver los cambios
+git pull upstream main para traer los cambios
+Y por ultimo un push para guardar los cambios en el repositorio propio
+
+B) Si
